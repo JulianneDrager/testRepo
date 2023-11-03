@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Screen from "./Components/Screen/Screen";
 import Thankyou from "../src/Components/Thankyou/Thankyou";
+// import
 
 function App() {
   return (
