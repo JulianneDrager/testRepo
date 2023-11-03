@@ -1,0 +1,107 @@
+.email,
+.name,
+.address,
+.address2,
+.city,
+.state,
+.zip,
+.textarea {
+  padding: 0 0.3rem;
+  margin: 0.3rem 0;
+}
+
+.error {
+  fill: #ffd23b;
+  width: 24px;
+  height: 21px;
+}
+
+.email,
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  border-radius: .2rem;
+}
+
+.message {
+   border-radius: .2rem;
+}
+
+.contact {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  /* text-shadow: 1px 1px 2px rgb(31, 107, 149); */
+}
+
+.contactTitleWrapper {
+  height: 100px;
+  /* background: url("../../images/banner2.jpg"); */
+  background-size: cover;
+  margin: 0.3rem 0 0 0;
+  text-align: center;
+}
+
+.cardWrapper {
+  background-color: #5b2443;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.btn {
+  background-color: #af96a3;
+  margin: 1rem 0 1rem 0;
+  width: 10rem;
+  color: white;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  font-size: 0.85rem;
+  text-align: center;
+  color: white;
+  background-color: #af96a3;
+  padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 375px) {
+  .contact {
+    font-size: 2.5rem;
+  }
+  .contactTitleWrapper {
+    background-size: cover;
+    background-position: center 150px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+   .fieldWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+ }
+
+@media screen and (min-width: 1024px) {
+  .contactTitleWrapper {
+    margin: 2rem 0;
+  }
+}
+
+/*
+@media screen and (min-width: 1280px) {
+   .contact {
+      font-size: 5rem;
+   }
+} */

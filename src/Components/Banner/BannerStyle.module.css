@@ -1,0 +1,73 @@
+.logoStyle {
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem 0 0 0;
+  background-color: #ffffffeb;
+}
+
+.logoStyle > h1 {
+  padding: 0 1rem;
+  margin: 2rem 0 0.2rem 0;
+  font-size: 2.5rem;
+  color: #5b2443;
+  text-shadow: 1px 1px 2px rgb(15, 15, 15);
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logoStyle > h3 {
+  background-color: #5b2443;
+  color: white;
+  padding: .5rem 1rem .2rem 1rem;
+  margin: 0;
+}
+
+.logoStyle > h5 {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: bold;
+  margin: 1rem 0 9px 0;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 375px) {
+  .logoStyle > h5 {
+    margin: 2rem 1rem 0.2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logoStyle > h5 {
+    font-size: 1.85rem;
+    line-height: 1.8rem;
+    /* margin: 0; */
+    padding: 0 1rem;
+  }
+  .logoStyle > h3 {
+    margin: 1rem 0 0 0;
+    padding: .5rem 1rem .2rem 1rem;
+  }
+
+  .logoStyle > h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 728px) {
+   .logoStyle > h5 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+   }
+   .logoStyle > h1 {
+    font-size: 3.8rem;
+    line-height: 3.5rem;
+   }
+}
+ 
+@media screen and (min-width: 1024px) {
+   .logoStyle > h5, h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+   }
+} 
